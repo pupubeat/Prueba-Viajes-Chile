@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.nav-izq {
+    padding-left: 100px;
+}
+
+.navi h3 {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.nav-der {
+    padding-right: 100px;
+}
+
+#about-us {
+    padding: 40px 0;
+}
+
+.about-columns {
+    padding-top: 50px;
+}
+
+.icon-travel {
+    background-color: rgb(13, 202, 213);
+}
+
+#destacados {
+    padding: 20px 0;
+}
+
+.group-cards {
+    padding-top: 50px;
+}
+
+.group-cards img {
+    height: 200px;
+}
+
+.group-cards .card-body {
+    background-color: rgb(13, 202, 213);
+    color: #fff;
+}
+
+#contacto {
+    padding: 25px 0;
+}
+
+#contacto form {
+    padding-top: 50px;
+}
+
+.btn-aqua {
+    background-color: rgb(13, 202, 213);
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(13, 202, 213);
+    padding: 10px 0;
+}
+
+footer h3 {
+    margin: 0;
+    padding-left: 150px;
+    padding-top: 5px;
+}
+
+.iconos {
+    padding-right: 150px;
+    padding-top: 3px;
+}
+
+.iconos i {
+    padding-right: 10px;
+}

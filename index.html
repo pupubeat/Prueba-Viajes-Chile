@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+
+    <!--Bootstrap CCS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--Style CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navi" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-izq" href="#">
+                <img src="assets/img/viajes.svg" alt="logo" width="25px">
+                <h3>Viajes Chile</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-der" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid">
+        <div id="carouselpics" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselpics" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselpics" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+    <section class="container" id="about-us">
+        <h3 class="text-center">¿QUIÉNES SOMOS?</h3>
+        <div class="row about-columns">
+            <article class="col-12 col-md-4 col-sm-12 pb-5">
+                <div class="icon-travel text-center">
+                    <i class="fa-solid fa-2x fa-plane"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam omnis, distinctio sequi
+                    architecto non totam perferendis iure quas provident voluptatem eligendi nostrum ea ratione quod
+                    maxime eos voluptas tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla
+                    nisi, adipisci quo blanditiis quae quia doloribus placeat numquam cupiditate a temporibus officia
+                    aperiam doloremque perferendis voluptatibus. Ratione, voluptatum amet.</p>
+            </article>
+            <article class="col-12 col-md-4 col-sm-12 pb-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet aliquid aspernatur iste nulla quasi
+                    inventore hic nobis voluptatem cupiditate, esse quisquam nostrum est deleniti. Corporis soluta
+                    maiores rerum omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, facere
+                    obcaecati doloremque voluptatibus dicta repellendus in placeat quas illo consequuntur ipsum sit
+                    corporis, impedit quis autem mollitia, a labore necessitatibus?</p>
+                <div class="icon-travel text-center">
+                    <i class="fa-solid fa-2x fa-mountain"></i>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 col-sm-12 pb-5">
+                <div class="icon-travel text-center">
+                    <i class="fa-solid fa-2x fa-route"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis incidunt ullam voluptates
+                    sapiente sequi magnam, recusandae a! Adipisci minima modi debitis consequatur quae, et sunt quia
+                    consectetur temporibus recusandae labore. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Possimus, culpa voluptate. Autem atque ut commodi architecto rerum ad cumque beatae quas pariatur
+                    at, maxime accusantium numquam tempore tempora odio iusto.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="container" id="destacados">
+        <h3 class="text-center">DESTACADOS</h3>
+        <div class="row group-cards">
+            <article class="col-12 col-md-3 col-sm-12 pb-5">
+                <div class="card">
+                    <img src="assets/img/card1.jpg" class="card-img-top object-fit-cover" alt="card1">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe
+                            voluptatum magni, cupiditate omnis quis eos nobis cumque maiores</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-12 col-md-3 col-sm-12 pb-5">
+                <div class="card">
+                    <img src="assets/img/card2.jpg" class="card-img-top object-fit-cover" alt="card2">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe
+                            voluptatum magni, cupiditate omnis quis eos nobis cumque maiores</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-12 col-md-3 col-sm-12 pb-5">
+                <div class="card">
+                    <img src="assets/img/card3.jpg" class="card-img-top object-fit-cover" alt="card3">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe
+                            voluptatum magni, cupiditate omnis quis eos nobis cumque maiores</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-12 col-md-3 col-sm-12">
+                <div class="card">
+                    <img src="assets/img/card4.jpg" class="card-img-top object-fit-cover" alt="card4">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe
+                            voluptatum magni, cupiditate omnis quis eos nobis cumque maiores</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="container text-center" id="contacto">
+        <h3>CONTACTO</h3>
+        <form class="text-start">
+            <div class="mb-3">
+                <label for="name-label" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="name-label">
+            </div>
+            <div class="mb-3">
+                <label for="email-label" class="form-label">Asunto</label>
+                <input type="email" class="form-control" id="email-label">
+            </div>
+            <div class="mb-3">
+                <label for="message-label" class="form-label">Mensaje</label>
+                <input type="message" class="form-control" id="message-label">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-aqua btn-lg">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <h3>VIAJES CHILE</h3>
+            </div>
+            <div class="col-6 iconos text-end">
+                <i class="fa-brands fa-2x fa-square-github"></i>
+                <i class="fa-brands fa-2x fa-linkedin"></i>
+                <i class="fa-brands fa-2x fa-square-twitter"></i>
+                <i class="fa-brands fa-2x fa-square-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap Popper&Tooltip-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!--Script JS-->
+    <script src="assets/js/log.js"></script>
+</body>
+
+</html>
