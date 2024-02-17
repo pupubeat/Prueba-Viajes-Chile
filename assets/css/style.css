@@ -52,6 +52,8 @@ body {
 
 #contacto form {
     padding-top: 50px;
+    width: 85%;
+    margin-inline: auto;
 }
 
 .btn-aqua {
@@ -66,13 +68,13 @@ footer {
 
 footer h3 {
     margin: 0;
-    padding-left: 150px;
+    padding-inline: 95px;
     padding-top: 5px;
 }
 
 .iconos {
-    padding-right: 150px;
     padding-top: 3px;
+    padding-inline: 100px;
 }
 
 .iconos i {
